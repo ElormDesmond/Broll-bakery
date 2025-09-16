@@ -1651,3 +1651,29 @@ body.dark-mode .contact-form-container {
 body.dark-mode li {
     color: #e0e0e0 !important;
 }
+
+/* Dark mode support for food catering sections and images */
+body.dark-mode .food-catering-section {
+    background: #232323 !important;
+    color: #f5f5f5 !important;
+}
+body.dark-mode .food-catering-section h2,
+body.dark-mode .food-catering-section h4 {
+    color: #ffd700 !important;
+}
+body.dark-mode .food-catering-section p {
+    color: #e0e0e0 !important;
+}
+body.dark-mode .food-catering-section .btn-order {
+    background: linear-gradient(135deg, #ff7043 0%, #ffd54f 100%) !important;
+    color: #181818 !important;
+    border: 2px solid #ffd54f !important;
+}
+body.dark-mode .food-catering-section .btn-order:hover {
+    background: linear-gradient(135deg, #ffd54f 0%, #ff7043 100%) !important;
+    color: #181818 !important;
+}
+body.dark-mode .food-catering-section .catering-img {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.7) !important;
+    border: 2px solid #333 !important;
+}
